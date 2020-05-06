@@ -1,0 +1,105 @@
+   
+.myButtona{
+ 
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:red;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.myButtona:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.myButtona:active {
+	position:relative;
+	top:1px;
+}
+
+body > div:nth-child(1) > p{
+    font-size: 50px;
+    color: black;
+}
+
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .myButtona {
+    animation: blink 1s infinite ;
+  }
+
+footer {position: absolute; bottom: 0;}
+
+
+
+
+body{
+    /* background-image: url("./images/sv.jpg"); */
+    margin : 40px auto; 
+
+    /* background-repeat: no-repeat;
+    background-size:cover ; */
+    position : center ;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin : 0
+}
+
+
+/* compte à revbours */
+#countdown{
+    margin : 40px auto; 
+    color : lightblue; 
+ 
+}
+
+/* navbar */
+nav{position: absolute; top: 0;}
+
+
+#nav{
+    border:none; 
+  }
+  #logo a{
+    padding-top:20px;
+    padding-left:30px;
+    color:rgb(255,191,154);
+    font-weight:600;
+  }
+  #listed a{
+    padding: 20px 30px;
+    font-weight:600;
+  }
+  #listed li a:hover{
+      background: rgba(0, 0, 0, 0.1);
+      background-repeat: repeat;
+      height: 100%;
+      width: auto;
+  }
+  .navbar-toggle .icon-bar{
+   width: 10px !important;
+    height:4px !important;
+  }
+  
+
+  .texteMarriage{
+      padding-top : 100px
+  }
